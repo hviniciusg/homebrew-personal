@@ -9,6 +9,7 @@ class Sasquatch < Formula
   # https://github.com/plougher/squashfs-tools/pull/3
   patch :p2 do
     url "https://github.com/plougher/squashfs-tools/pull/3.diff"
+    sha256 "2d0d3787e6a56034486ec7d6432694f65ff38a7b93276cf23427892a4a447808"
   end
 
   def install
